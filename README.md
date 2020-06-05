@@ -29,7 +29,7 @@ https://www.success.com/17-motivational-quotes-to-inspire-you-to-be-successful/
 ## Psychology Content Sources
 https://www.oberlo.com/blog/color-psychology-color-meanings
 
-## Note:
+## (Note)Sources of Study:
 All these concepts have been implemented and inspired from the Codelabs and Google Developers 
 https://developer.android.com/courses/kotlin-android-fundamentals/overview?utm_source=week1&utm_medium=email&utm_campaign=30DaysOfKotlin&utm_term=Intermediate
 
