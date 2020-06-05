@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card1"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <CheckBox
+            android:id="@+id/checkBox2"
+            style="@android:style/Widget.DeviceDefault.Light.CompoundButton.CheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:fontFamily="@font/acme"
+            android:text="@string/card_label_6"
+            android:textColor="@color/welcome_color"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/image_online"
+            android:layout_width="146dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:baselineAlignBottom="true"
+            app:srcCompat="@drawable/online" />
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card2"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/card1"
+        app:layout_constraintVertical_bias="0.06">
+
+        <CheckBox
+            android:id="@+id/checkBox3"
+            style="@android:style/Widget.DeviceDefault.Light.CompoundButton.CheckBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:fontFamily="@font/acme"
+            android:text="@string/card_label_7"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/image_work"
+            android:layout_width="159dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:baselineAlignBottom="true"
+            app:srcCompat="@drawable/workfromhome" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card3"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/card2"
+        app:layout_constraintVertical_bias="0.098">
+
+        <CheckBox
+            android:id="@+id/checkBox4"
+            style="@android:style/Widget.DeviceDefault.Light.CompoundButton.CheckBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:fontFamily="@font/acme"
+            android:text="@string/card_label_8"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/image_entrance"
+            android:layout_width="159dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:baselineAlignBottom="true"
+            app:srcCompat="@drawable/entrance" />
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

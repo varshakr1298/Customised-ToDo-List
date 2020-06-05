@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Customised ToDo List</string>
+    <string name="welcome">Welcome to Customised ToDo List</string>
+    <string name="quote_label">Quote of the Day</string>
+    <string name="next_label">Next</string>
+    <string name="color_text_label">Choose the color for the day!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="box_one">Exciting</string>
+    <string name="box_two">Friendly</string>
+    <string name="box_three">Optimistic</string>
+    <string name="box_four">Peaceful</string>
+    <string name="box_five">Dependable</string>
+    <string name="box_six">Creative</string>
+    <string name="box_seven">Calm</string>
+    <string name="title_activity_todo">Todo</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="card_label_1">Do yoga/excercise</string>
+    <string name="card_label_2">Painting/Drawing</string>
+    <string name="card_label_3">Cooking</string>
+    <string name="card_label_4">Gardening</string>
+    <string name="card_label_5">Other</string>
+    <string name="card_label_6">Attend Online Classes/Courses</string>
+    <string name="card_label_7">Work from Home</string>
+    <string name="card_label_8">Prepare for Entrance Exams</string>
+</resources>
